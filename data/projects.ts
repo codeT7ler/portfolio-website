@@ -176,10 +176,10 @@ export const projects: ProjectData[] = [
     ],
     galleryTitle: "Combat Gallery",
     gallery: [
-      { src: "/images/melee/gallery01.png", alt: "Blueprint montage flow for melee attacks and pushback response", category: "Combat" },
-      { src: "/images/melee/gallery02.png", alt: "Sphere-trace based hit detection setup for melee combat", category: "Combat" },
-      { src: "/images/melee/gallery03.png", alt: "Health bar and hit direction logic used for combat feedback", category: "Combat" },
-      { src: "/images/melee/details.png", alt: "Animation montage and attack state logic for melee interactions", category: "Combat" }
+      { src: "/images/melee/gallery01.png", alt: "", category: "Combat" },
+      { src: "/images/melee/gallery02.png", alt: "", category: "Combat" },
+      { src: "/images/melee/gallery03.png", alt: "", category: "Combat" },
+      { src: "/images/melee/details.png", alt: "", category: "Combat" }
     ],
     sections: [
       {

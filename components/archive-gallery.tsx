@@ -9,8 +9,6 @@ import { cn } from "@/lib/utils";
 
 type ArchiveItem = ProjectImage & {
   key: string;
-  projectSlug: string;
-  projectTitle: string;
 };
 
 const filters: Array<ArchiveCategory | "All"> = ["All", "Combat", "Vehicles", "Environment"];
@@ -25,7 +23,7 @@ export function ArchiveGallery({ items }: { items: ArchiveItem[] }) {
 
   return (
     <>
-      <div className="mb-10 flex flex-wrap gap-3">
+      {/* <div className="mb-10 flex flex-wrap gap-3">
         {filters.map((filter) => (
           <button
             key={filter}
@@ -41,7 +39,7 @@ export function ArchiveGallery({ items }: { items: ArchiveItem[] }) {
             {filter}
           </button>
         ))}
-      </div>
+      </div> */}
 
       <div className="archive-masonry">
         {filteredItems.map((item, index) => (
