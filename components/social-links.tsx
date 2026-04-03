@@ -27,8 +27,8 @@ export function SocialLinks({ className }: SocialLinksProps) {
           <a
             key={link.label}
             href={link.href}
-            target="_blank"             // Opens in new tab
-            rel="noopener noreferrer"    // Security best practice
+            target="_blank"             
+            rel="noopener noreferrer"    
             data-cursor="interactive"
             className="group glass-panel hover-panel flex items-center justify-between rounded-[22px] border border-white/8 px-5 py-4 transition duration-[var(--duration-fast)]"
           >
