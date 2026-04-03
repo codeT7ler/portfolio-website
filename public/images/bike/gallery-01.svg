@@ -1,0 +1,25 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#050813"/>
+  <rect x="60" y="70" width="520" height="340" rx="24" fill="#0B1325" stroke="#72F0FF" stroke-opacity="0.16"/>
+  <rect x="620" y="70" width="520" height="340" rx="24" fill="#0B1325" stroke="#72F0FF" stroke-opacity="0.16"/>
+  <rect x="60" y="450" width="1080" height="380" rx="24" fill="#0B1325" stroke="#72F0FF" stroke-opacity="0.16"/>
+  <path d="M130 735L380 520H450L680 735H130Z" fill="url(#roadA)"/>
+  <path d="M745 250L1035 120" stroke="#51A8FF" stroke-width="7" stroke-linecap="round"/>
+  <path d="M745 320L1035 190" stroke="#8B5CF6" stroke-width="7" stroke-linecap="round"/>
+  <path d="M140 320H500" stroke="#DDE8FF" stroke-opacity="0.14" stroke-width="2"/>
+  <g>
+    <circle cx="290" cy="710" r="50" fill="#08111F" stroke="#FF9551" stroke-opacity="0.55" stroke-width="4"/>
+    <circle cx="490" cy="710" r="50" fill="#08111F" stroke="#51A8FF" stroke-opacity="0.55" stroke-width="4"/>
+    <path d="M238 650C282 620 348 612 416 614C475 616 527 633 568 662L603 690L570 708L505 677H306L246 724H186L238 650Z" fill="#B23232"/>
+  </g>
+  <text x="107" y="130" fill="#9FB8FF" font-size="28" font-family="Arial, sans-serif" letter-spacing="7">ROAD GENERATION</text>
+  <text x="667" y="130" fill="#9FB8FF" font-size="28" font-family="Arial, sans-serif" letter-spacing="7">BIKE SETUP</text>
+  <text x="107" y="510" fill="#9FB8FF" font-size="28" font-family="Arial, sans-serif" letter-spacing="7">NIGHT TEST PASS</text>
+  <defs>
+    <linearGradient id="roadA" x1="405" y1="520" x2="405" y2="735" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111E39"/>
+      <stop offset="1" stop-color="#070C17"/>
+    </linearGradient>
+  </defs>
+</svg>
+

@@ -1,0 +1,14 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#050813"/>
+  <ellipse cx="910" cy="180" rx="220" ry="110" fill="#51A8FF" fill-opacity="0.14"/>
+  <circle cx="420" cy="620" r="110" fill="#09111D" stroke="#FF9551" stroke-opacity="0.55" stroke-width="6"/>
+  <circle cx="780" cy="620" r="110" fill="#09111D" stroke="#51A8FF" stroke-opacity="0.55" stroke-width="6"/>
+  <circle cx="420" cy="620" r="40" fill="#1A2F57"/>
+  <circle cx="780" cy="620" r="40" fill="#1A2F57"/>
+  <path d="M300 560C368 500 472 470 586 474C670 477 750 495 818 532L898 588C914 600 915 622 890 629L816 649L736 612L482 612L380 668H280C250 668 236 634 256 614L300 560Z" fill="#AE3030"/>
+  <path d="M520 420C560 376 632 360 701 366C766 372 828 398 862 444L846 492L747 460H601L541 520L471 518L520 420Z" fill="#B63A3A"/>
+  <path d="M319 536L409 620" stroke="#E6F0FF" stroke-opacity="0.42" stroke-width="6"/>
+  <path d="M784 522L804 620" stroke="#E6F0FF" stroke-opacity="0.42" stroke-width="6"/>
+  <path d="M600 472L749 472" stroke="#E6F0FF" stroke-opacity="0.48" stroke-width="10" stroke-linecap="round"/>
+  <text x="88" y="120" fill="#9FB8FF" font-size="28" font-family="Arial, sans-serif" letter-spacing="8">CHAOS VEHICLE SYSTEM</text>
+</svg>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chunky's Adventure | Yash Menat</title>
+  <meta
+    name="description"
+    content="Detailed Chunky's Adventure case-study page showcasing gameplay systems, character pipeline, UI work, and optimization by Yash Menat."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="project-page">
+  <div class="loading-screen" id="loading-screen" aria-hidden="true">
+    <div class="loading-panel">
+      <p class="loading-kicker">Loading Adventure Case File</p>
+      <h1>CHUNKY'S ADVENTURE</h1>
+      <div class="loading-bar">
+        <span class="loading-progress"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="cursor-glow" id="cursor-glow" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav shell">
+      <a class="brand" href="index.html#hero">
+        <span class="brand-mark"></span>
+        <span class="brand-text">Yash Menat</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html#hero">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#systems">Systems</a>
+        <a href="#contact-footer">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="project-main">
+    <section class="project-hero shell">
+      <div class="project-hero-copy reveal">
+        <a class="back-button" href="index.html">&larr; Back to Portfolio</a>
+        <p class="eyebrow">Project Case Study // Platformer Pipeline</p>
+        <h1>Chunky's Adventure</h1>
+        <h2>Gameplay systems, character pipeline, and performance optimization in Unreal Engine 5</h2>
+        <p class="project-intro">
+          Chunky's Adventure was developed as a collaborative Unreal Engine 5 project, with my role centered on gameplay systems, character setup, interaction logic, and optimization. The goal was to make the experience feel playful and responsive while keeping the pipeline technically reliable from prototype through final packaging.
+        </p>
+      </div>
+
+      <div class="project-hero-media reveal">
+        <figure class="hero-image-frame">
+          <img
+            src="media/Screenshot 2026-04-02 211114/Screenshot 2026-03-23 083451.png"
+            alt="Chunky character standing on a dinner table inside the stylized kitchen environment"
+          >
+        </figure>
+      </div>
+    </section>
+
+    <section class="project-split shell">
+      <div class="split-copy reveal">
+        <p class="eyebrow">System Overview</p>
+        <h2>Project Overview</h2>
+        <p>
+          I worked on Chunky's Adventure as part of a three-member team, focusing on core gameplay systems that shaped the player's moment-to-moment experience. My responsibilities included implementing player movement mechanics such as running and a responsive double jump, along with item collection through overlap detection. The aim was to make movement and interaction feel smooth, intuitive, and satisfying within the game environment so the character consistently felt under control.
+        </p>
+        <p>
+          I also handled the character pipeline by creating a custom rig and refining animation assets sourced from Mixamo in Autodesk Maya before integrating them into Unreal Engine 5. Those animations were connected to the player blueprint so transitions remained clean and synchronized with gameplay mechanics. Alongside that work, I implemented important game logic and UI features including the widget blueprint, win and lose conditions, and the final packaging workflow.
+        </p>
+        <p>
+          Performance was another key focus. I improved overall runtime stability through culling, selective texture quality reduction, and render resolution adjustments where appropriate. That optimization pass helped maintain smoother performance without losing the visual tone of the environment.
+        </p>
+      </div>
+      <div class="split-media reveal">
+        <figure class="split-image-frame">
+          <img
+            src="media/Screenshot 2026-04-02 211114/Screenshot 2026-03-23 005619.png"
+            alt="Chunky's Adventure kitchen environment viewed from above inside Unreal Engine 5"
+          >
+        </figure>
+      </div>
+    </section>
+
+    <section class="project-gallery shell" id="gallery">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Visual Archive</p>
+        <h2>Gameplay &amp; Environment</h2>
+      </div>
+
+      <div class="gallery-grid">
+        <button class="gallery-card gallery-card-wide reveal" type="button" data-lightbox-src="media/Screenshot 2026-04-02 211114/Screenshot 2026-03-23 083451.png" data-lightbox-alt="Chunky character framed against the kitchen table set">
+          <img src="media/Screenshot 2026-04-02 211114/Screenshot 2026-03-23 083451.png" alt="Chunky character framed against the kitchen table set">
+        </button>
+        <button class="gallery-card reveal" type="button" data-lightbox-src="media/Screenshot 2026-04-02 211114/Screenshot 2026-03-26 022314.png" data-lightbox-alt="Performance capture showing optimized render resolution and runtime metrics">
+          <img src="media/Screenshot 2026-04-02 211114/Screenshot 2026-03-26 022314.png" alt="Performance capture showing optimized render resolution and runtime metrics">
+        </button>
+        <button class="gallery-card reveal" type="button" data-lightbox-src="media/Screenshot 2026-04-02 211114/Screenshot 2026-03-23 010110.png" data-lightbox-alt="Runtime metrics capture used to compare performance balancing decisions">
+          <img src="media/Screenshot 2026-04-02 211114/Screenshot 2026-03-23 010110.png" alt="Runtime metrics capture used to compare performance balancing decisions">
+        </button>
+        <button class="gallery-card reveal" type="button" data-lightbox-src="media/Screenshot 2026-04-02 211114/Screenshot 2026-04-02 210409.png" data-lightbox-alt="Dark cinematic kitchen shot used in the final atmosphere pass">
+          <img src="media/Screenshot 2026-04-02 211114/Screenshot 2026-04-02 210409.png" alt="Dark cinematic kitchen shot used in the final atmosphere pass">
+        </button>
+        <button class="gallery-card reveal" type="button" data-lightbox-src="media/Screenshot 2026-04-02 211114/Screenshot 2026-04-02 210443.png" data-lightbox-alt="Low-angle environmental composition from Chunky's Adventure">
+          <img src="media/Screenshot 2026-04-02 211114/Screenshot 2026-04-02 210443.png" alt="Low-angle environmental composition from Chunky's Adventure">
+        </button>
+        <button class="gallery-card reveal" type="button" data-lightbox-src="media/Screenshot 2026-04-02 211114/Screenshot 2026-04-02 210547.png" data-lightbox-alt="Custom rig setup for Chunky used in the character pipeline">
+          <img src="media/Screenshot 2026-04-02 211114/Screenshot 2026-04-02 210547.png" alt="Custom rig setup for Chunky used in the character pipeline">
+        </button>
+        <button class="gallery-card reveal" type="button" data-lightbox-src="media/Screenshot 2026-04-02 211114/Screenshot 2026-04-02 210643.png" data-lightbox-alt="Rig controls and skeletal setup for Chunky character animation">
+          <img src="media/Screenshot 2026-04-02 211114/Screenshot 2026-04-02 210643.png" alt="Rig controls and skeletal setup for Chunky character animation">
+        </button>
+        <button class="gallery-card gallery-card-wide reveal" type="button" data-lightbox-src="media/Screenshot 2026-04-02 211114/Screenshot 2026-04-02 211045.png" data-lightbox-alt="Top-down composition of the dining area and playable kitchen space">
+          <img src="media/Screenshot 2026-04-02 211114/Screenshot 2026-04-02 211045.png" alt="Top-down composition of the dining area and playable kitchen space">
+        </button>
+      </div>
+    </section>
+
+    <section class="project-split shell" id="systems">
+      <div class="split-media reveal">
+        <figure class="split-image-frame">
+          <img
+            src="media/Screenshot 2026-04-02 211114/Screenshot 2026-04-02 211045.png"
+            alt="Playable kitchen space showing traversal scale and platforming routes"
+          >
+        </figure>
+      </div>
+      <div class="split-copy reveal">
+        <p class="eyebrow">Gameplay Layer</p>
+        <h2>Gameplay Systems</h2>
+        <p>
+          The gameplay layer centered on responsive player movement, with running and a double jump tuned to feel immediate and readable in a scaled environment full of oversized props. The movement system was designed to support platforming flow without making the character feel floaty or disconnected from the world.
+        </p>
+        <p>
+          Item collection was implemented through overlap-driven interactions so pickups could register cleanly without friction. That helped the game communicate progress naturally while keeping the interaction model simple and satisfying.
+        </p>
+        <p>
+          More broadly, the interaction design focused on clarity. Movement, pickup feedback, and state changes were all built to support an experience that felt intuitive from the player's point of view.
+        </p>
+      </div>
+    </section>
+
+    <section class="project-split shell split-reverse">
+      <div class="split-media reveal">
+        <figure class="split-image-frame">
+          <img
+            src="media/Screenshot 2026-04-02 211114/Screenshot 2026-04-02 210547.png"
+            alt="Chunky custom rig prepared for animation and engine integration"
+          >
+        </figure>
+      </div>
+      <div class="split-copy reveal">
+        <p class="eyebrow">Character Workflow</p>
+        <h2>Character Pipeline</h2>
+        <p>
+          The character pipeline involved building a custom rig and refining third-party animation data so it could work reliably with the final gameplay implementation. Mixamo served as a useful animation source, while Autodesk Maya was used to clean, adapt, and prepare those assets for the specific needs of the character.
+        </p>
+        <p>
+          Once ready, the animations were imported into Unreal Engine 5 and integrated into the player blueprint, where they were synchronized with movement states and gameplay logic. That process helped establish smooth animation transitions while keeping the character responsive in play.
+        </p>
+      </div>
+    </section>
+
+    <section class="project-split shell">
+      <div class="split-media reveal">
+        <figure class="split-image-frame">
+          <img
+            src="media/Screenshot 2026-04-02 211114/Screenshot 2026-03-26 022314.png"
+            alt="Performance metrics screenshot used during Chunky's Adventure optimization"
+          >
+        </figure>
+      </div>
+      <div class="split-copy reveal">
+        <p class="eyebrow">Optimization Pass</p>
+        <h2>Optimization</h2>
+        <p>
+          Optimization work focused on keeping the game visually coherent while improving runtime stability. Culling was used to reduce unnecessary rendering cost, especially in a scene where large environment elements could quickly stack up in view.
+        </p>
+        <p>
+          I also adjusted texture quality and render resolution where appropriate to balance visual clarity against performance. The result was a more stable experience that preserved the atmosphere of the project while remaining practical for real-time play.
+        </p>
+      </div>
+    </section>
+
+    <section class="highlights shell">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Project Breakdown</p>
+        <h2>Key Highlights</h2>
+      </div>
+      <div class="highlight-grid">
+        <article class="highlight-card reveal"><h3>Team-based development</h3><p>Contributed to a three-member Unreal Engine 5 project with shared production responsibilities.</p></article>
+        <article class="highlight-card reveal"><h3>Player movement system</h3><p>Implemented responsive movement with readable traversal across a stylized oversized environment.</p></article>
+        <article class="highlight-card reveal"><h3>Double jump mechanic</h3><p>Tuned airborne control to feel satisfying while still supporting clear platforming movement.</p></article>
+        <article class="highlight-card reveal"><h3>Item collection logic</h3><p>Used overlap detection to build simple, reliable, and intuitive collection interactions.</p></article>
+        <article class="highlight-card reveal"><h3>Animation pipeline</h3><p>Refined sourced animations in Maya and integrated them into UE5 for synchronized gameplay use.</p></article>
+        <article class="highlight-card reveal"><h3>UI &amp; game states</h3><p>Implemented widget blueprint flow along with win and lose state handling.</p></article>
+        <article class="highlight-card reveal"><h3>Performance optimization</h3><p>Balanced culling, texture quality, and resolution settings to improve runtime smoothness.</p></article>
+      </div>
+    </section>
+
+    <section class="tech-stack shell">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Toolchain</p>
+        <h2>Tech Stack</h2>
+      </div>
+      <div class="tech-tags">
+        <span class="tech-tag reveal">Unreal Engine 5</span>
+        <span class="tech-tag reveal">Blueprints</span>
+        <span class="tech-tag reveal">Autodesk Maya</span>
+        <span class="tech-tag reveal">Mixamo</span>
+        <span class="tech-tag reveal">UI Widgets</span>
+        <span class="tech-tag reveal">Optimization Techniques</span>
+      </div>
+    </section>
+
+    <section class="video-section shell">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Playback</p>
+        <h2>Project Showcase</h2>
+      </div>
+      <div class="video-frame reveal">
+        <!-- Replace this URL with your actual video -->
+        <iframe
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          title="Chunky's Adventure Project Showcase"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+
+    <section class="project-footer shell" id="contact-footer">
+      <div class="contact-panel reveal">
+        <p class="eyebrow">Next Destination</p>
+        <h2>Continue Exploring</h2>
+        <p class="contact-text">
+          Return to the main portfolio to explore the other case studies and open the contact section for collaborations, hiring conversations, or project discussions.
+        </p>
+        <div class="hero-actions">
+          <a class="cta-button" href="index.html">&larr; Back to Portfolio</a>
+          <a class="ghost-button" href="index.html#contact">Open Contact</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Close image viewer">Close</button>
+    <div class="lightbox-stage">
+      <img id="lightbox-image" src="" alt="">
+      <div class="lightbox-panel" id="lightbox-panel"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

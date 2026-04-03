@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Endless Bike Run | Yash Menat</title>
+  <meta
+    name="description"
+    content="Detailed Endless Bike Run case-study page showcasing continuous driving gameplay and Chaos Vehicle setup by Yash Menat."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="project-page">
+  <div class="loading-screen" id="loading-screen" aria-hidden="true">
+    <div class="loading-panel">
+      <p class="loading-kicker">Loading Vehicle Systems</p>
+      <h1>ENDLESS BIKE RUN</h1>
+      <div class="loading-bar">
+        <span class="loading-progress"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="cursor-glow" id="cursor-glow" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav shell">
+      <a class="brand" href="index.html#hero">
+        <span class="brand-mark"></span>
+        <span class="brand-text">Yash Menat</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html#hero">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#gameplay">Gameplay</a>
+        <a href="#contact-footer">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="project-main">
+    <section class="project-hero shell">
+      <div class="project-hero-copy reveal">
+        <a class="back-button" href="index.html">&larr; Back to Portfolio</a>
+        <p class="eyebrow">Project Case Study // Driving Prototype</p>
+        <h1>Endless Bike Run</h1>
+        <h2>Physics-based endless driving system using Unreal Engine 5</h2>
+        <p class="project-intro">
+          Endless Bike Run is a driving prototype built around continuous forward motion, stable bike handling, and a minimal but immersive highway presentation. The project focused on capturing the feel of sustained speed while keeping the control model readable and responsive.
+        </p>
+      </div>
+
+      <div class="project-hero-media reveal">
+        <figure class="hero-image-frame bike-page-hero">
+          <div class="bike-hero-stage">
+            <div class="bike-lane"></div>
+            <div class="bike-light beam-left"></div>
+            <div class="bike-light beam-right"></div>
+            <div class="bike-machine"></div>
+            <div class="bike-hud">
+              <span>000</span>
+              <span>KM/H</span>
+            </div>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <section class="project-split shell">
+      <div class="split-copy reveal">
+        <p class="eyebrow">System Overview</p>
+        <h2>Project Overview</h2>
+        <p>
+          This project began as an endless bike run prototype in Unreal Engine 5, built around a continuously generated highway and a physics-based vehicle setup powered by Chaos Vehicle systems. The main objective was to create a driving loop that felt smooth and immediate, with controls that encouraged long uninterrupted motion rather than short isolated test runs.
+        </p>
+        <p>
+          A large part of the work centered on control feel and visual rhythm. The highway needed to sustain the illusion of continuous travel, while the vehicle itself had to react in a way that felt stable, responsive, and believable. That combination turned the project into a useful exercise in balancing system logic, vehicle tuning, and presentation for a real-time driving experience.
+        </p>
+        <p>
+          The result is a prototype that highlights continuous gameplay flow, handling feedback, and the technical process of bringing a drivable bike into an Unreal Engine environment.
+        </p>
+      </div>
+      <div class="split-media reveal">
+        <figure class="split-image-frame bike-panel-frame">
+          <div class="bike-collage bike-collage-one">
+            <div class="bike-collage-label">Endless Highway Development Capture</div>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <section class="project-gallery shell" id="gallery">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Visual Archive</p>
+        <h2>Image Gallery</h2>
+      </div>
+
+      <div class="gallery-grid">
+        <button class="gallery-card gallery-card-wide reveal bike-gallery-card" type="button" data-lightbox-panel="one" data-lightbox-alt="Endless Bike Run development collage showing road setup, bike asset, and UI">
+          <div class="bike-collage bike-collage-one">
+            <div class="bike-collage-label">Endless Bike Run Development Capture</div>
+          </div>
+        </button>
+        <button class="gallery-card gallery-card-wide reveal bike-gallery-card" type="button" data-lightbox-panel="two" data-lightbox-alt="Endless Bike Run workflow collage showing highway layout and bike setup">
+          <div class="bike-collage bike-collage-two">
+            <div class="bike-collage-label">Bike Setup and Highway Workflow Capture</div>
+          </div>
+        </button>
+      </div>
+    </section>
+
+    <section class="project-split shell" id="gameplay">
+      <div class="split-media reveal">
+        <figure class="split-image-frame bike-panel-frame">
+          <div class="bike-collage bike-collage-one">
+            <div class="bike-collage-label">Continuous Highway Loop</div>
+          </div>
+        </figure>
+      </div>
+      <div class="split-copy reveal">
+        <p class="eyebrow">Core Loop</p>
+        <h2>Gameplay Systems</h2>
+        <p>
+          The gameplay loop was designed around an endless road system that keeps the player moving forward through a consistent stream of highway space. That structure supports uninterrupted driving and gives the prototype its runner-like rhythm, where the challenge is less about discrete levels and more about maintaining flow.
+        </p>
+        <p>
+          Player control feel was treated as a core system rather than a cosmetic detail. Steering, stability, and forward momentum all needed to reinforce the sense of speed without making the bike feel unpredictable, which is what gives the prototype its readable and replayable driving behavior.
+        </p>
+      </div>
+    </section>
+
+    <section class="project-split shell split-reverse">
+      <div class="split-media reveal">
+        <figure class="split-image-frame bike-panel-frame">
+          <div class="bike-collage bike-collage-two">
+            <div class="bike-collage-label">Chaos Vehicle Workflow</div>
+          </div>
+        </figure>
+      </div>
+      <div class="split-copy reveal">
+        <p class="eyebrow">Vehicle Layer</p>
+        <h2>Vehicle System</h2>
+        <p>
+          The bike setup relied on the Chaos Vehicle system to establish the technical foundation for motion, suspension behavior, and in-engine physical response. That included tuning how the bike reacts to movement input and how it stays visually grounded on the road while still feeling agile.
+        </p>
+        <p>
+          Suspension response, handling adjustments, and overall physics tuning were important in finding the right balance between realism and playability. The goal was not strict simulation, but a control model that feels responsive enough for an endless driving experience while still benefiting from physically informed behavior.
+        </p>
+      </div>
+    </section>
+
+    <section class="highlights shell">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Project Breakdown</p>
+        <h2>Key Highlights</h2>
+      </div>
+      <div class="highlight-grid">
+        <article class="highlight-card reveal"><h3>Endless runner system</h3><p>Built around continuous forward travel and a repeatable road-generation driven gameplay loop.</p></article>
+        <article class="highlight-card reveal"><h3>Vehicle physics</h3><p>Used physics-driven behavior to make movement feel grounded, readable, and reactive.</p></article>
+        <article class="highlight-card reveal"><h3>Chaos Vehicle setup</h3><p>Configured the vehicle layer inside Unreal Engine 5 for drivable, testable motion.</p></article>
+        <article class="highlight-card reveal"><h3>Real-time environment</h3><p>Built a highway presentation that supports speed and keeps the player visually oriented.</p></article>
+        <article class="highlight-card reveal"><h3>Driving mechanics</h3><p>Focused on control feel, handling stability, and long-form playability.</p></article>
+      </div>
+    </section>
+
+    <section class="tech-stack shell">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Toolchain</p>
+        <h2>Tech Stack</h2>
+      </div>
+      <div class="tech-tags">
+        <span class="tech-tag reveal">Unreal Engine 5</span>
+        <span class="tech-tag reveal">Chaos Vehicle System</span>
+        <span class="tech-tag reveal">Blueprint System</span>
+        <span class="tech-tag reveal">Physics Simulation</span>
+      </div>
+    </section>
+
+    <section class="video-section shell">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Playback</p>
+        <h2>Project Showcase</h2>
+      </div>
+      <div class="video-frame reveal">
+        <!-- Replace this URL with your actual video -->
+        <iframe
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          title="Endless Bike Run Project Showcase"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+
+    <section class="project-footer shell" id="contact-footer">
+      <div class="contact-panel reveal">
+        <p class="eyebrow">Next Destination</p>
+        <h2>Continue Exploring</h2>
+        <p class="contact-text">
+          Return to the main portfolio to explore the rest of the work and open the contact section for collaborations, hiring conversations, or project discussions.
+        </p>
+        <div class="hero-actions">
+          <a class="cta-button" href="index.html">&larr; Back to Portfolio</a>
+          <a class="ghost-button" href="index.html#contact">Open Contact</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Close image viewer">Close</button>
+    <div class="lightbox-stage">
+      <img id="lightbox-image" src="" alt="">
+      <div class="lightbox-panel" id="lightbox-panel"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

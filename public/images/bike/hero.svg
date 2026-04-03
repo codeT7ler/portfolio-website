@@ -1,0 +1,45 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#050813"/>
+  <ellipse cx="1190" cy="150" rx="260" ry="150" fill="#2B4CFF" fill-opacity="0.22"/>
+  <ellipse cx="320" cy="160" rx="300" ry="170" fill="#8B5CF6" fill-opacity="0.16"/>
+  <ellipse cx="1260" cy="720" rx="300" ry="140" fill="#FF9551" fill-opacity="0.12"/>
+  <path d="M200 840L700 420H900L1400 840H200Z" fill="url(#road)"/>
+  <path d="M770 420H830L890 840H710L770 420Z" fill="#8EA0C8" fill-opacity="0.12"/>
+  <path d="M792 470H808L845 840H755L792 470Z" fill="#D5E6FF" fill-opacity="0.44"/>
+  <g opacity="0.7">
+    <path d="M430 260L505 480" stroke="#E4F0FF" stroke-opacity="0.6" stroke-width="8" stroke-linecap="round"/>
+    <path d="M1170 260L1095 480" stroke="#E4F0FF" stroke-opacity="0.6" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="430" cy="260" r="10" fill="#F8FBFF"/>
+    <circle cx="1170" cy="260" r="10" fill="#F8FBFF"/>
+  </g>
+  <g filter="url(#glow)">
+    <path d="M640 560C690 520 765 500 840 504C906 507 965 528 1010 562L1055 613C1065 625 1067 645 1048 652L995 668L930 636L702 636L636 678H576C556 678 548 655 559 641L640 560Z" fill="#AA2E2E"/>
+    <circle cx="697" cy="688" r="86" fill="#0A1223" stroke="#FF9551" stroke-opacity="0.6" stroke-width="6"/>
+    <circle cx="913" cy="688" r="86" fill="#0A1223" stroke="#51A8FF" stroke-opacity="0.6" stroke-width="6"/>
+    <circle cx="697" cy="688" r="32" fill="#1B2F57"/>
+    <circle cx="913" cy="688" r="32" fill="#1B2F57"/>
+    <path d="M744 562H926" stroke="#E8F4FF" stroke-opacity="0.55" stroke-width="10" stroke-linecap="round"/>
+    <path d="M935 560L1004 613" stroke="#E8F4FF" stroke-opacity="0.5" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <rect x="120" y="120" width="220" height="86" rx="16" fill="#091323" fill-opacity="0.72" stroke="#72F0FF" stroke-opacity="0.25"/>
+  <text x="156" y="175" fill="#EDF2FF" font-size="42" font-family="Arial, sans-serif" font-weight="700" letter-spacing="6">168 KM/H</text>
+  <rect x="120" y="238" width="280" height="22" rx="11" fill="#0B1529"/>
+  <rect x="120" y="238" width="178" height="22" rx="11" fill="url(#boost)"/>
+  <text x="1230" y="132" fill="#9FB8FF" font-size="28" font-family="Arial, sans-serif" letter-spacing="8">ENDLESS BIKE RUN</text>
+  <defs>
+    <linearGradient id="road" x1="800" y1="420" x2="800" y2="840" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101A31"/>
+      <stop offset="1" stop-color="#050813"/>
+    </linearGradient>
+    <linearGradient id="boost" x1="120" y1="249" x2="298" y2="249" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#51A8FF"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <filter id="glow" x="505" y="450" width="610" height="344" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="18" result="effect1_foregroundBlur_1_2"/>
+    </filter>
+  </defs>
+</svg>
+

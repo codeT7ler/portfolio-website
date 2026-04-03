@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Supra MK4 3D Model | Yash Menat</title>
+  <meta
+    name="description"
+    content="Detailed Toyota Supra MK4 case-study page showcasing modeling, rigging, and Unreal Engine 5 integration by Yash Menat."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="project-page">
+  <div class="loading-screen" id="loading-screen" aria-hidden="true">
+    <div class="loading-panel">
+      <p class="loading-kicker">Loading Vehicle Case File</p>
+      <h1>SUPRA MK4</h1>
+      <div class="loading-bar">
+        <span class="loading-progress"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="cursor-glow" id="cursor-glow" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav shell">
+      <a class="brand" href="index.html#hero">
+        <span class="brand-mark"></span>
+        <span class="brand-text">Yash Menat</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html#hero">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#integration">Integration</a>
+        <a href="#contact-footer">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="project-main">
+    <section class="project-hero shell">
+      <div class="project-hero-copy reveal">
+        <a class="back-button" href="index.html">&larr; Back to Portfolio</a>
+        <p class="eyebrow">Project Case Study // Vehicle Pipeline</p>
+        <h1>Supra MK4 3D Model</h1>
+        <h2>High-detail Toyota Supra MK4 modeling, rigging, and Unreal Engine 5 integration</h2>
+        <p class="project-intro">
+          This project is my 3D interpretation of the Toyota Supra MK4, created using reference images to match proportions, shapes, and iconic design elements. I focused on achieving clean hard-surface topology, accurate curves, and a complete structure that includes both the exterior and interior components. The goal was not just visual accuracy, but creating a model that is efficient, smooth, and suitable for real-time use. Working on this car helped me refine my workflow for automotive modeling, improve my edge-flow decisions, and better understand how to prepare high-detail assets for game engines.
+        </p>
+      </div>
+
+      <div class="project-hero-media reveal">
+        <figure class="hero-image-frame">
+          <img
+            src="asli media/supra/supra1.png"
+            alt="Blue Toyota Supra MK4 showcased in a cinematic Unreal Engine environment"
+          >
+        </figure>
+      </div>
+    </section>
+
+    <section class="project-gallery shell" id="gallery">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Visual Archive</p>
+        <h2>Image Gallery</h2>
+      </div>
+
+      <div class="gallery-grid">
+        <button
+          class="gallery-card gallery-card-wide reveal"
+          type="button"
+          data-lightbox-src="asli media/supra/supra1.png"
+          data-lightbox-alt="Cinematic front three-quarter view of the Toyota Supra MK4 in Unreal Engine"
+        >
+          <img
+            src="asli media/supra/supra1.png"
+            alt="Cinematic front three-quarter view of the Toyota Supra MK4 in Unreal Engine"
+          >
+        </button>
+
+        <button
+          class="gallery-card reveal"
+          type="button"
+          data-lightbox-src="asli media/supra/supra2.png"
+          data-lightbox-alt="Top-down showcase view of the Toyota Supra MK4 highlighting the roof and body shape"
+        >
+          <img
+            src="asli media/supra/supra2.png"
+            alt="Top-down showcase view of the Toyota Supra MK4 highlighting the roof and body shape"
+          >
+        </button>
+
+        <button
+          class="gallery-card reveal"
+          type="button"
+          data-lightbox-src="asli media/supra/supra3.png"
+          data-lightbox-alt="Rear cinematic shot of the Toyota Supra MK4 with glowing taillights"
+        >
+          <img
+            src="asli media/supra/supra3.png"
+            alt="Rear cinematic shot of the Toyota Supra MK4 with glowing taillights"
+          >
+        </button>
+
+        <button
+          class="gallery-card reveal"
+          type="button"
+          data-lightbox-src="asli media/supra/supra4.png"
+          data-lightbox-alt="Vehicle rigging setup of the Toyota Supra MK4 inside Blender"
+        >
+          <img
+            src="asli media/supra/supra4.png"
+            alt="Vehicle rigging setup of the Toyota Supra MK4 inside Blender"
+          >
+        </button>
+
+        <button
+          class="gallery-card gallery-card-wide reveal"
+          type="button"
+          data-lightbox-src="asli media/supra/supra5.png"
+          data-lightbox-alt="Wireframe view of the Toyota Supra MK4 showing hard-surface topology and interior detail"
+        >
+          <img
+            src="asli media/supra/supra5.png"
+            alt="Wireframe view of the Toyota Supra MK4 showing hard-surface topology and interior detail"
+          >
+        </button>
+      </div>
+    </section>
+
+    <section class="project-split shell" id="integration">
+      <div class="split-media reveal">
+        <figure class="split-image-frame">
+          <img
+            src="asli media/supra/supra1.png"
+            alt="Toyota Supra MK4 integrated inside Unreal Engine 5 with cinematic lighting"
+          >
+        </figure>
+      </div>
+      <div class="split-copy reveal">
+        <p class="eyebrow">Technical Implementation</p>
+        <h2>Unreal Engine 5 Integration</h2>
+        <p>
+          After finishing the model, I brought it into Unreal Engine 5 and set it up using the Chaos Vehicle System to make the Supra fully drivable. I configured wheel setups, suspension behavior, mass distribution, friction curves, and engine settings to achieve a realistic driving feel. This step taught me how vehicle physics behave inside Unreal Engine, how different parameters affect handling, and how to optimize a model for real-time movement. Making the car drivable gave me practical experience in technical implementation, physics tuning, and gameplay-focused asset integration.
+        </p>
+      </div>
+    </section>
+
+    <section class="project-split shell split-reverse">
+      <div class="split-media reveal">
+        <figure class="split-image-frame">
+          <img
+            src="asli media/supra/supra4.png"
+            alt="Toyota Supra MK4 wheel and steering rig prepared for vehicle import"
+          >
+        </figure>
+      </div>
+      <div class="split-copy reveal">
+        <p class="eyebrow">Preparation Pipeline</p>
+        <h2>Rigging and Vehicle Setup</h2>
+        <p>
+          Before bringing the car into Unreal Engine, I ensured the model was prepared with a clean and functional rig. I rigged the wheels, steering, and essential movable parts directly inside the software, using built-in tools without relying on any external plugins. This included setting up pivot points, wheel rotations, steering axes, and hierarchy clean-up to make the mesh ready for animation and engine import. The rigging process helped me understand how vehicles should be structured for game engines and how proper rig preparation directly improves the in-engine driving experience.
+        </p>
+      </div>
+    </section>
+
+    <section class="highlights shell">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Project Breakdown</p>
+        <h2>Overview Highlights</h2>
+      </div>
+      <div class="highlight-grid">
+        <article class="highlight-card reveal">
+          <h3>Accurate hard-surface vehicle modeling</h3>
+          <p>Focused on proportion, silhouette control, and clean panel transitions to capture the Supra's iconic form.</p>
+        </article>
+        <article class="highlight-card reveal">
+          <h3>Exterior and interior detailing</h3>
+          <p>Built beyond the shell so the asset holds up in close-up cinematic shots and technical review.</p>
+        </article>
+        <article class="highlight-card reveal">
+          <h3>Real-time ready asset preparation</h3>
+          <p>Structured the model for efficient import, interaction, and rendering inside a game engine workflow.</p>
+        </article>
+        <article class="highlight-card reveal">
+          <h3>Vehicle rigging and pivot setup</h3>
+          <p>Prepared wheel rotation, steering behavior, and hierarchy alignment for predictable in-engine control.</p>
+        </article>
+        <article class="highlight-card reveal">
+          <h3>Unreal Engine 5 implementation</h3>
+          <p>Integrated the model into a playable setup while preserving presentation quality and technical reliability.</p>
+        </article>
+        <article class="highlight-card reveal">
+          <h3>Chaos Vehicle tuning and testing</h3>
+          <p>Adjusted driving parameters to explore suspension response, stability, grip, and overall vehicle feel.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="tech-stack shell">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Toolchain</p>
+        <h2>Tools / Tech Stack</h2>
+      </div>
+      <div class="tech-tags">
+        <span class="tech-tag reveal">Blender</span>
+        <span class="tech-tag reveal">Unreal Engine 5</span>
+        <span class="tech-tag reveal">Chaos Vehicle System</span>
+        <span class="tech-tag reveal">Hard-Surface Modeling</span>
+        <span class="tech-tag reveal">Vehicle Rigging</span>
+        <span class="tech-tag reveal">Real-Time Asset Workflow</span>
+      </div>
+    </section>
+
+    <section class="video-section shell">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Playback</p>
+        <h2>Project Showcase</h2>
+      </div>
+      <div class="video-frame reveal">
+        <!-- Replace the iframe src below with your final YouTube embed link later -->
+        <iframe
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          title="Toyota Supra MK4 Project Showcase"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+
+    <section class="project-footer shell" id="contact-footer">
+      <div class="contact-panel reveal">
+        <p class="eyebrow">Next Destination</p>
+        <h2>Continue Exploring</h2>
+        <p class="contact-text">
+          Return to the main portfolio to view the rest of the work and open the contact section for collaborations, hiring opportunities, or project discussions.
+        </p>
+        <div class="hero-actions">
+          <a class="cta-button" href="index.html">&larr; Back to Portfolio</a>
+          <a class="ghost-button" href="index.html#contact">Open Contact</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Close image viewer">Close</button>
+    <div class="lightbox-stage">
+      <img id="lightbox-image" src="" alt="">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

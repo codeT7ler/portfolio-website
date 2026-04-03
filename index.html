@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yash Menat | Technical Designer</title>
+  <meta
+    name="description"
+    content="AAA game-style portfolio website for Technical Designer Yash Menat."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loading-screen" id="loading-screen" aria-hidden="true">
+    <div class="loading-panel">
+      <p class="loading-kicker">Booting Portfolio Interface</p>
+      <h1>YASH MENAT</h1>
+      <div class="loading-bar">
+        <span class="loading-progress"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="cursor-glow" id="cursor-glow" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav shell">
+      <a class="brand" href="#hero">
+        <span class="brand-mark"></span>
+        <span class="brand-text">Yash Menat</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#hero">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero shell" id="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Technical Designer // Unreal Engine Gameplay Systems</p>
+        <h1>Yash Menat</h1>
+        <h2>Technical Designer</h2>
+        <p class="hero-text">
+          Hello there! I'm excited to share the projects I've been working on - feel free to get in touch!
+        </p>
+        <div class="hero-actions">
+          <a class="cta-button" href="#projects">View Projects</a>
+          <a class="ghost-button" href="#contact">Open Contact</a>
+        </div>
+      </div>
+
+      <div class="hero-stage reveal" aria-hidden="true">
+        <div class="stage-frame">
+          <div class="stage-hud hud-top">LIVE SHOWCASE</div>
+          <div class="stage-hud hud-side">SYSTEM ONLINE</div>
+          <div class="orbital-ring ring-one"></div>
+          <div class="orbital-ring ring-two"></div>
+          <div class="holo-core"></div>
+          <div class="particle-field">
+            <span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects shell" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Selected Work</p>
+        <h2>Mission Chapters</h2>
+      </div>
+
+      <article class="project-card reveal" data-accent="combat">
+        <div class="side-label">PROJECT 01</div>
+        <div class="project-visual combat-visual">
+          <div class="visual-topline">
+            <span>MELEE STATUS</span>
+            <span>ENGAGED</span>
+          </div>
+          <div class="health-ui">
+            <div class="health-labels">
+              <span>PLAYER HP</span>
+              <span>86%</span>
+            </div>
+            <div class="health-bar"><span></span></div>
+          </div>
+          <div class="combat-grid"></div>
+          <div class="hit-indicator"></div>
+          <div class="placeholder-text">Gameplay Capture Placeholder</div>
+        </div>
+        <div class="project-content">
+          <p class="project-number">01</p>
+          <h3>Melee Combat System</h3>
+          <p>
+            Created a responsive combat system in Unreal Engine 5 using Blueprints, Behavior Trees, and Blackboards to drive enemy interactions and gameplay flow. The AI features state-based behavior including patrolling, detecting the player, chasing, and engaging in combat with animation-driven attack logic. The system is built around clean decision-making structures and event-triggered responses, ensuring smooth transitions between combat states. This project demonstrates strong understanding of Unreal's AI gameplay pipeline, combat mechanics, and animation integration.
+          </p>
+          <a class="project-button" href="melee-combat.html">View Project</a>
+        </div>
+      </article>
+
+      <article class="project-card reveal reverse" data-accent="vehicle">
+        <div class="side-label">PROJECT 02</div>
+        <div class="project-visual supra-visual">
+          <div class="car-silhouette"></div>
+          <div class="scanline"></div>
+          <div class="showcase-rim rim-one"></div>
+          <div class="showcase-rim rim-two"></div>
+          <div class="placeholder-text">Cinematic Vehicle Showcase Placeholder</div>
+        </div>
+        <div class="project-content">
+          <p class="project-number">02</p>
+          <h3>Toyota Supra MK4 Model</h3>
+          <p>
+            Created a highly detailed Toyota Supra MK4 3D model with a fully built interior and engine, optimized for real-time rendering. The vehicle is integrated into Unreal Engine 5 using the Chaos Vehicle system to enable physics-based driving and gameplay interaction. This project showcases skills in automotive modeling, texturing, and real-time integration, demonstrating the ability to bring complex assets from DCC tools into a functional game environment.
+          </p>
+          <a class="project-button" href="toyota-supra.html">View Project</a>
+        </div>
+      </article>
+
+      <article class="project-card reveal reverse" data-accent="adventure">
+        <div class="side-label">PROJECT 03</div>
+        <div class="project-visual adventure-visual">
+          <div class="adventure-glow"></div>
+          <div class="adventure-halo"></div>
+          <div class="adventure-figure"></div>
+          <div class="adventure-floor"></div>
+          <div class="placeholder-text">Chunky's Adventure Showcase Placeholder</div>
+        </div>
+        <div class="project-content">
+          <p class="project-number">03</p>
+          <h3>Chunky's Adventure</h3>
+          <p>
+            Built as a team-based Unreal Engine 5 project focused on gameplay systems, character setup, and optimization. The work covered movement mechanics, item collection, custom rig preparation, animation integration, UI flow, win and lose states, and performance tuning to keep the experience smooth and readable.
+          </p>
+          <a class="project-button" href="chunky-adventure.html">View Project</a>
+        </div>
+      </article>
+
+      <article class="project-card reveal" data-accent="speed">
+        <div class="side-label">PROJECT 04</div>
+        <div class="project-visual bike-visual">
+          <div class="speed-lines"></div>
+          <div class="speedometer">
+            <span class="speed-value">168</span>
+            <span class="speed-unit">KM/H</span>
+          </div>
+          <div class="road-lane"></div>
+          <div class="placeholder-text">Endless Highway Prototype Placeholder</div>
+        </div>
+        <div class="project-content">
+          <p class="project-number">04</p>
+          <h3>Endless Bike Game Prototype</h3>
+          <p>
+            Developed an endless bike run game in Unreal Engine 5, featuring a continuous highway system and physics-based vehicle handling powered by the Chaos Vehicle framework. The game emphasizes smooth control, responsive suspension, and a visually immersive environment with dynamic lighting. This project highlights skills in gameplay mechanics, vehicle setup, and real-time environment design, demonstrating the ability to build engaging driving experiences within Unreal Engine.
+          </p>
+          <a class="project-button" href="bike-run.html">View Project</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="contact shell" id="contact">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Transmission Channel</p>
+        <h2>Contact Me</h2>
+      </div>
+      <div class="contact-panel reveal">
+        <p class="contact-text">
+          You can find me on Instagram, Behance, and LinkedIn. For any inquiries, collaborations, or even a friendly hello, my email is always open!
+        </p>
+        <div class="contact-links">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="Behance">Behance</a>
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+          <a href="mailto:yashmenat27@gmail.com">yashmenat27@gmail.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
