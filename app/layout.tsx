@@ -8,6 +8,9 @@ import "@/styles/globals.css";
 
 export const metadata: Metadata = {
   title: "Yash Menat | Technical Designer",
+  icons: {
+    icon: '/favicon.png',
+  },
   description: "Dark cinematic AAA-style portfolio for Technical Game Designer Yash Menat."
 };
 
