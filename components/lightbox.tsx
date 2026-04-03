@@ -39,7 +39,7 @@ export function Lightbox({ image, onClose }: LightboxProps) {
             onClick={(event) => event.stopPropagation()}
           >
             <div className="relative aspect-[16/10] overflow-hidden rounded-[22px]">
-              <Image src={image.src} alt={image.alt} fill className="object-contain bg-slate-950" sizes="100vw" unoptimized={image.src.endsWith(".svg")} />
+              <Image src={image.src} alt={image.alt} fill className="object-contain bg-slate-950" sizes="100vw" />
             </div>
             <p className="px-3 py-4 text-sm text-slate-300">{image.alt}</p>
           </motion.div>

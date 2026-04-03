@@ -39,7 +39,6 @@ export function Gallery({ images }: GalleryProps) {
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 50vw"
-                unoptimized={image.src.endsWith(".svg")}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent" />
               <div className="absolute right-4 top-4 rounded-full border border-white/10 bg-slate-950/70 p-2 text-slate-100">

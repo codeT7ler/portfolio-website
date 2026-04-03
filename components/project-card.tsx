@@ -19,15 +19,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
         Project {project.chapter}
       </div>
       <div className="project-image-card relative min-h-[260px] overflow-hidden rounded-[24px] border border-white/8 bg-slate-950/60">
-        {project.slug === "bike-run" ? (
-          <div className="bike-art h-full min-h-[260px]">
-            <div className="bike-label">Endless Highway Build</div>
-            <div className="bike-speed">
-              <strong>168</strong>
-              <span className="text-sm uppercase tracking-[0.28em] text-slate-300">KM/H</span>
-            </div>
-          </div>
-        ) : project.heroImage ? (
+        {project.heroImage ? (
           <Image src={project.heroImage.src} alt={project.heroImage.alt} fill className="object-cover" sizes="(max-width: 768px) 100vw, 40vw" />
         ) : null}
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/10 to-transparent" />

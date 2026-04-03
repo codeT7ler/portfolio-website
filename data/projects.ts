@@ -30,7 +30,6 @@ export type ProjectData = {
   heroSubtitle: string;
   heroIntro: string;
   heroImage?: ProjectImage;
-  heroVisual?: "bike";
   overviewImage?: ProjectImage;
   overview: string[];
   galleryTitle: string;
@@ -161,12 +160,12 @@ export const projects: ProjectData[] = [
     heroIntro:
       "This project is a melee combat prototype developed in Unreal Engine 5, focused on responsive sword-based gameplay, enemy interaction, and readable combat feedback. The system combines player attacks, hit detection, damage response, and AI behavior into a structured gameplay loop designed to feel reactive and polished.",
     heroImage: {
-      src: "/images/melee/hero.png",
+      src: "/images/melee/hero2.png",
       alt: "Unreal Engine 5 combat blueprint showing animation-driven melee reactions and damage flow",
       category: "Combat"
     },
     overviewImage: {
-      src: "/images/melee/overview.png",
+      src: "/images/melee/gallery01.png",
       alt: "Combat blueprint graph showing attack tracing, damage application, and state updates",
       category: "Combat"
     },
@@ -177,10 +176,10 @@ export const projects: ProjectData[] = [
     ],
     galleryTitle: "Combat Gallery",
     gallery: [
-      { src: "/images/melee/gallery-01.png", alt: "Blueprint montage flow for melee attacks and pushback response", category: "Combat" },
-      { src: "/images/melee/gallery-02.png", alt: "Sphere-trace based hit detection setup for melee combat", category: "Combat" },
-      { src: "/images/melee/gallery-03.png", alt: "Health bar and hit direction logic used for combat feedback", category: "Combat" },
-      { src: "/images/melee/gallery-04.png", alt: "Animation montage and attack state logic for melee interactions", category: "Combat" }
+      { src: "/images/melee/gallery01.png", alt: "Blueprint montage flow for melee attacks and pushback response", category: "Combat" },
+      { src: "/images/melee/gallery02.png", alt: "Sphere-trace based hit detection setup for melee combat", category: "Combat" },
+      { src: "/images/melee/gallery03.png", alt: "Health bar and hit direction logic used for combat feedback", category: "Combat" },
+      { src: "/images/melee/details.png", alt: "Animation montage and attack state logic for melee interactions", category: "Combat" }
     ],
     sections: [
       {
@@ -317,14 +316,13 @@ export const projects: ProjectData[] = [
     heroSubtitle: "Physics-based endless driving system using Unreal Engine 5",
     heroIntro:
       "Endless Bike Run is a driving prototype built around continuous forward motion, stable bike handling, and a minimal but immersive highway presentation. The project focused on capturing the feel of sustained speed while keeping the control model readable and responsive.",
-    heroVisual: "bike",
     heroImage: {
-      src: "/images/bike/hero.svg",
+      src: "/images/bike/bike05.png",
       alt: "Concept showcase image for Endless Bike Run featuring a stylized highway and bike silhouette",
       category: "Vehicles"
     },
     overviewImage: {
-      src: "/images/bike/gallery-01.svg",
+      src: "/images/bike/bike04.png",
       alt: "Endless Bike Run development collage showing road setup and bike asset planning",
       category: "Vehicles"
     },
@@ -335,8 +333,8 @@ export const projects: ProjectData[] = [
     ],
     galleryTitle: "Image Gallery",
     gallery: [
-      { src: "/images/bike/gallery-01.svg", alt: "Endless Bike Run development collage showing road setup, bike asset, and UI", category: "Vehicles" },
-      { src: "/images/bike/gallery-02.svg", alt: "Endless Bike Run workflow collage showing highway layout and bike setup", category: "Vehicles" }
+      { src: "/images/bike/bike02.png", alt: "Endless Bike Run development collage showing road setup, bike asset, and UI", category: "Vehicles" },
+      { src: "/images/bike/bike03.png", alt: "Endless Bike Run workflow collage showing highway layout and bike setup", category: "Vehicles" }
     ],
     sections: [
       {
@@ -344,7 +342,7 @@ export const projects: ProjectData[] = [
         eyebrow: "Core Loop",
         title: "Gameplay Systems",
         image: {
-          src: "/images/bike/gameplay.svg",
+          src: "/images/bike/bike05.png",
           alt: "Stylized gameplay loop artwork for Endless Bike Run showing the continuous road structure",
           category: "Vehicles"
         },
@@ -360,7 +358,7 @@ export const projects: ProjectData[] = [
         title: "Vehicle System",
         reverse: true,
         image: {
-          src: "/images/bike/vehicle.svg",
+          src: "/images/bike/bike04.png",
           alt: "Stylized vehicle system artwork illustrating bike structure and Chaos Vehicle tuning",
           category: "Vehicles"
         },

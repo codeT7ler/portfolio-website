@@ -61,17 +61,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           </Reveal>
 
           <Reveal>
-            {project.heroVisual === "bike" ? (
-              <div className="glass-panel hero-stage neon-outline">
-                <div className="bike-art h-full min-h-[420px]">
-                  <div className="bike-label">Endless Bike Run</div>
-                  <div className="bike-speed">
-                    <strong>168</strong>
-                    <span className="text-sm uppercase tracking-[0.28em] text-slate-300">KM/H</span>
-                  </div>
-                </div>
-              </div>
-            ) : project.heroImage ? (
+            {project.heroImage ? (
               <div className="glass-panel neon-outline project-image-card overflow-hidden rounded-[32px] border border-white/8">
                 <div className="relative aspect-[4/3] min-h-[420px]">
                   <Image src={project.heroImage.src} alt={project.heroImage.alt} fill className="object-cover" priority sizes="(max-width: 768px) 100vw, 45vw" />
@@ -98,7 +88,6 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
                       fill
                       className="object-cover"
                       sizes="(max-width: 768px) 100vw, 40vw"
-                      unoptimized={project.overviewImage.src.endsWith(".svg")}
                     />
                   </div>
                 </div>
@@ -124,7 +113,6 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
                         fill
                         className="object-cover"
                         sizes="(max-width: 768px) 100vw, 45vw"
-                        unoptimized={section.image.src.endsWith(".svg")}
                       />
                     </div>
                   </div>
