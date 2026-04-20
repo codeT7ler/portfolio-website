@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   icons: {
     icon: '/favicon.png',
   },
-  description: "Dark cinematic AAA-style portfolio for Technical Game Designer Yash Menat."
+  description: "Portfolio website of Technical Game Designer Yash Menat."
 };
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
